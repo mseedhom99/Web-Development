@@ -1,0 +1,101 @@
+/*
+CS 146 Project HTML and CSS
+Mathew Seedhom, Tobias Dalton, Princeton Nwosu, Hannah Sancilio
+I pledge my honor that I have abided by the Stevens Honor System.
+*/
+html, body, header, footer, hgroup, nav, main, article, section, figure, figcaption, h1, h2, h3, ul, li, body, div, p, img{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 0;
+}
+html{
+    overflow-x:hidden;
+}
+.logo{
+    width: 20vw;
+    margin-left: 10px;
+}
+.nav-bar{
+    box-shadow: 0 5px 25px 0 rgba(0, 0, 0, .75);
+    padding: 10px;
+    background-color: rgb(29, 57, 138);
+    width: 100%;
+}
+.pic a:hover {
+    background-color: none;
+}
+.logolist{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.logo_option{
+    display: inline;
+    border-right: 1px solid #bbb;
+    padding: 0px 10px;
+}
+.logo_option:last-child {
+    border-right: none;
+}
+.logo_option a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.logo_option a:hover {
+    background-color: #111;
+    transform: scale(1.1, 1.005);
+}
+.foota{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.7em;
+    background-color: #0099cc;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.space{
+    background-color: #0099cc;
+    padding-right: 10px;
+}
+#curr{
+    background-color: gray;
+    box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, .75);
+
+}
+@media only screen and (min-width: 999px){
+    .nav-bar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .logolist{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        font-size: calc(5px + 1vw);
+    }
+}
+@media only screen and (max-width: 998px){
+    .logo{
+        width: calc(100px + 25vw);
+    }
+    .nav-bar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logolist{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: calc(1vw + 10px);
+    }
+}

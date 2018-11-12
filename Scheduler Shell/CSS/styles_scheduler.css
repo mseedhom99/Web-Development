@@ -1,0 +1,104 @@
+/*
+CS 146 Project HTML and CSS
+Mathew Seedhom, Tobias Dalton, Princeton Nwosu, Hannah Sancilio
+I pledge my honor that I have abided by the Stevens Honor System.
+*/
+h1{
+    font-family: 'Apple Chancery', 'Gill Sans', sans-serif;
+    font-size: 75px;
+    text-align: center;
+    text-shadow: 2px 2px 25px rgba(0, 0, 0, 1);
+}
+th{
+    width: 100px;
+    border-bottom: thin solid black;
+    
+      
+}
+tr{
+    border-bottom: thin solid black;
+    
+}
+td{
+    text-align: center;
+    border-bottom: 16px;
+    border-bottom: 2px solid black;
+    border-left: 16px;
+    border-left: 2px solid black;
+    border-right: 16px;
+    border-right: 2px solid black;
+    border-top: 16px;
+    border-top: 2px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div{
+    background-color: white;
+    margin: 16px auto 16px auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    box-shadow: 0px 0px 4px black;
+    border-radius: 2%;
+    width: 75%;    
+    display: flex;
+    justify-content: center;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+table{
+    width: 100%;
+}
+.terms{
+    display: flex;
+    clear: both;
+    flex-direction: column;
+    background-color: #7393b9;
+    margin-top: 50px;
+}
+
+div p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.foota{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.7em;
+    background-color: #0099cc;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    
+}
+.space{
+  
+    background-color: #0099cc;
+    padding-right: 10px;
+    
+}
+
+body{ 
+    background-image: linear-gradient(white, #b0c4de)
+}
+@media only screen and (max-width: 399px){
+    .foota{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    h1{
+        font-size: 20px;
+    }
+}
+
+
+
+

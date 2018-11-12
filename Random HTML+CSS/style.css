@@ -1,0 +1,57 @@
+
+/*
+Mathew Seedhom
+CS146
+10/15/18
+I pledge my honor that I have abided by the Stevens Honor System.
+*/
+
+body{
+    background-color: grey;
+}
+.content{
+    background-color: white;
+    padding: 16px 0px 16px 0px;
+    margin: 16px auto 16px auto;
+    box-shadow: 0px 0px 4px black;
+    border-radius: 4px;
+    width: 600px;
+}
+table{
+    border-collapse: collapse;
+}
+td{
+    border-bottom: thin solid #CCCCCC;
+}
+.event{
+    border-radius: 6px;
+    color: white;
+}
+#DS.event{
+    background-color: green;
+}
+#RI.event{
+    background-color: red;
+}
+#TE.event{
+    background-color: blue;
+}
+#JT.event{
+    background-color: purple;
+}
+h2{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+th{
+    width: 100px;
+    border-bottom: thin solid #CCCCCC;
+}
+ul{
+    list-style: square;
+}
+.time{
+    text-align: right;
+}
